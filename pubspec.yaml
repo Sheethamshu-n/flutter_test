@@ -1,0 +1,57 @@
+name: student_connect
+description: A Flutter Student Connect demo app.
+publish_to: 'none'
+version: 1.0.0+1
+
+
+environment:
+ sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+ flutter:
+   sdk: flutter
+
+
+ # Networking
+ http: ^1.2.1                # For Weather API calls
+
+
+ # Local storage for task persistence (simple key-value)
+ shared_preferences: ^2.2.0 
+
+
+ # URL launcher for external links/email
+ url_launcher: ^6.3.0       
+
+
+ # Sharing tasks via device share sheet
+ share_plus: ^6.3.0         
+
+
+ # UI & styling
+ cupertino_icons: ^1.0.8    
+ google_fonts: ^5.1.0       
+ glassmorphism: ^3.0.0       # Optional: for easier glass effect widgets
+
+
+ # SQLite database for robust task storage
+ sqflite: ^2.2.8+4
+ path_provider: ^2.0.14
+ path: ^1.8.3
+
+
+dev_dependencies:
+ flutter_test:
+   sdk: flutter
+ flutter_lints: ^3.0.0
+
+
+flutter:
+ uses-material-design: true
+
+
+ assets:
+   - assets/banner.jpg
+
+
